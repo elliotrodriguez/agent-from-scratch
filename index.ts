@@ -18,8 +18,6 @@ const response = await runLLM({
 	]
 })
 
-
-console.log(response)
 addMessages([{
   role: 'assistant', content: response
 }])
