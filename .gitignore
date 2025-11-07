@@ -175,4 +175,5 @@ dist
 .DS_Store
 .env
 
-db.json 
+# Database files
+db.json
